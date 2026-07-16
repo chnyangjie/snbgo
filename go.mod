@@ -1,3 +1,3 @@
-module github.com/snowballsecurities/snbgo
+module github.com/chnyangjie/snbgo
 
 go 1.22
