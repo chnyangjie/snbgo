@@ -1,0 +1,17 @@
+version: 2
+
+# snbgo is a library — no binary to build.
+# GoReleaser is used here for tag-based releases and changelog generation.
+
+release:
+  github:
+    owner: chnyangjie
+    name: snbgo
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+      - '^ci:'
